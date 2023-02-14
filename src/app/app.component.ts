@@ -35,9 +35,9 @@ export class AppComponent {
       this.totalAns += 1;
       this.avg = this.totaltime / this.totalAns;
       this.answer = '';
-      this.message = 'correct answer';
+      this.message = 'Correct Answer';
     } else {
-      this.message = 'in-correct answer';
+      this.message = 'In-Correct Answer';
       this.answer = '';
     }
   }
